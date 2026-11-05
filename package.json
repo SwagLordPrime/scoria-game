@@ -1,0 +1,18 @@
+{
+  "name": "scoria",
+  "private": true,
+  "version": "0.14.0",
+  "description": "SCORIA: What the War Left — a grounded, quietly dark creature-collector (Phases 0–14 shipped; the merc loop closes).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "phaser": "^3.87.0"
+  }
+}
