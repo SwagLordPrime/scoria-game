@@ -5,10 +5,16 @@ A quiet, dark creature-collector RPG that runs in the browser, built with **Phas
 **Status: in development, and playable.** Phases 0 to 14 have shipped. The roadmap runs past phase 30, toward a full campaign of about 30 hours.
 
 <p>
+  <img src="screenshots/battle.png" width="49%" alt="A wild encounter: the battle menu with Fight, Bind, Item, Swap and Run">
+  <img src="screenshots/route.png" width="49%" alt="Fell-Grass Route, the first wild area, with the party status bar">
+</p>
+<p>
   <img src="screenshots/title.png" width="32%" alt="Title screen">
   <img src="screenshots/tavern.png" width="32%" alt="The Emberfall Tavern, where the run starts">
   <img src="screenshots/starter-select.png" width="32%" alt="Choosing a starter core">
 </p>
+
+**In one minute:** I directed this game from an empty folder to 14 shipped phases using AI coding agents. I wrote the world and the rules; the agents wrote the code against written build plans; every phase had to pass a headless simulation before it was tagged. The [case study](CASE_STUDY.md) covers how that worked and what went wrong along the way.
 
 ## What's in the game so far
 
@@ -28,6 +34,14 @@ npm run build    # static bundle in dist/
 ```
 
 You need Node 18 or newer. Controls: arrow keys or WASD to move, Space or Enter to interact, Esc or M for the menu.
+
+To run the phase simulations (no browser needed):
+
+```bash
+node scripts/sim-phase14.mjs   # prints each check and ends with ALL CHECKS PASS
+```
+
+All ten sims (`sim-phase5` to `sim-phase14`) were re-run on this public copy on 2026-11-13 with Node 22 and exit cleanly, and `npm run build` succeeds.
 
 ## How it's built
 
