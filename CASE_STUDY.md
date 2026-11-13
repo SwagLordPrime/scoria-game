@@ -1,6 +1,6 @@
 # Case study: SCORIA
 
-**Role:** game director and product owner. I wrote the world, the creatures, the rules and the acceptance checks. AI coding agents (Claude Code) wrote the code.
+**Role:** game director and product owner. I set the world, the creatures, the rules and the acceptance checks (worked out in chat with Claude, with my calls marked in the docs). AI coding agents (Claude Code) wrote the code.
 **Stack:** Phaser 3, Vite, plain JavaScript, Node scripts for testing.
 **Status:** in development, playable, 14 phases shipped.
 

@@ -14,7 +14,7 @@ A quiet, dark creature-collector RPG that runs in the browser, built with **Phas
   <img src="screenshots/starter-select.png" width="32%" alt="Choosing a starter core">
 </p>
 
-**In one minute:** I directed this game from an empty folder to 14 shipped phases using AI coding agents. I wrote the world and the rules; the agents wrote the code against written build plans; every phase had to pass a headless simulation before it was tagged. The [case study](CASE_STUDY.md) covers how that worked and what went wrong along the way.
+**In one minute:** I directed this game from an empty folder to 14 shipped phases using AI coding agents. I set the world and the rules; the agents wrote the code against written build plans; every phase had to pass a headless simulation before it was tagged. The [case study](CASE_STUDY.md) covers how that worked and what went wrong along the way.
 
 ## What's in the game so far
 
